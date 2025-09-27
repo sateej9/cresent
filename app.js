@@ -119,6 +119,13 @@ function takeCommand(message) {
         const finalText = "I found some information for " + message + " on google";
         speak(finalText);
     }
+    else if(message.include('open Copilot'){
+        // message.include
+        window.open("https://copilot.com")
+        finalText = "this will elp you in making codes iamges and others"
+        speak(finalTexat)
+
+    }
 }
 
 // ChatBox
@@ -151,3 +158,4 @@ function takeCommand(message) {
 //     const output = await fetchGPTResponse(prompt);
 //     document.getElementById("output").innerText = output;
 // });
+
